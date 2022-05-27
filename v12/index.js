@@ -5,4 +5,4 @@ const config = require("./config.json")
 /* example:
 const client = new discord.client();
 */
-require("./antiCrash.js")(client,discord,config)
+require("./antiCrash.js")(client,discord,chalk,config)
